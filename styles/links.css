@@ -1,4 +1,5 @@
 .link-strawberry {
+    transition: 0.4s ease;
     text-decoration: none;
     padding: 0 2px 0 2px;
     border-radius: 6px;
@@ -17,6 +18,7 @@
 }
 
 .link-orange {
+    transition: 0.4s ease;
     text-decoration: none;
     padding: 0 2px 0 2px;
     border-radius: 6px;
@@ -35,6 +37,7 @@
 }
 
 .link-banana {
+    transition: 0.4s ease;
     text-decoration: none;
     padding: 0 2px 0 2px;
     border-radius: 6px;
@@ -53,6 +56,7 @@
 }
 
 .link-lime {
+    transition: 0.4s ease;
     text-decoration: none;
     padding: 0 2px 0 2px;
     border-radius: 6px;
@@ -71,6 +75,7 @@
 }
 
 .link-mint {
+    transition: 0.4s ease;
     text-decoration: none;
     padding: 0 2px 0 2px;
     border-radius: 6px;
@@ -89,6 +94,7 @@
 }
 
 .link-blueberry {
+    transition: 0.4s ease;
     text-decoration: none;
     padding: 0 2px 0 2px;
     border-radius: 6px;
@@ -107,6 +113,7 @@
 }
 
 .link-grape {
+    transition: 0.4s ease;
     text-decoration: none;
     padding: 0 2px 0 2px;
     border-radius: 6px;
@@ -125,6 +132,7 @@
 }
 
 .link-bubblegum {
+    transition: 0.4s ease;
     text-decoration: none;
     padding: 0 2px 0 2px;
     border-radius: 6px;
@@ -143,6 +151,7 @@
 }
 
 .link-cocoa {
+    transition: 0.4s ease;
     text-decoration: none;
     padding: 0 2px 0 2px;
     border-radius: 6px;
@@ -161,6 +170,7 @@
 }
 
 .link-silver {
+    transition: 0.4s ease;
     text-decoration: none;
     padding: 0 2px 0 2px;
     border-radius: 6px;
@@ -179,6 +189,7 @@
 }
 
 .link-slate {
+    transition: 0.4s ease;
     text-decoration: none;
     padding: 0 2px 0 2px;
     border-radius: 6px;
@@ -197,6 +208,7 @@
 }
 
 .link-black {
+    transition: 0.4s ease;
     text-decoration: none;
     padding: 0 2px 0 2px;
     border-radius: 6px;
