@@ -1,3 +1,93 @@
+.link-strawberry {
+    text-decoration: none;
+    padding: 0 2px 0 2px;
+    border-radius: 6px;
+    background-color: var(--strawberry-100);
+    color: var(--silver-100);
+}
+
+.link-strawberry:hover {
+    background-color: var(--strawberry-300);
+    color: var(--silver-100);
+}
+
+.link-strawberry:active {
+    background-color: var(--strawberry-500);
+    color: var(--silver-100);
+}
+
+.link-orange {
+    text-decoration: none;
+    padding: 0 2px 0 2px;
+    border-radius: 6px;
+    background-color: var(--orange-100);
+    color: var(--silver-100);
+}
+
+.link-orange:hover {
+    background-color: var(--orange-300);
+    color: var(--silver-100);
+}
+
+.link-orange:active {
+    background-color: var(--orange-500);
+    color: var(--silver-100);
+}
+
+.link-banana {
+    text-decoration: none;
+    padding: 0 2px 0 2px;
+    border-radius: 6px;
+    background-color: var(--banana-100);
+    color: var(--black-100);
+}
+
+.link-banana:hover {
+    background-color: var(--banana-300);
+    color: var(--black-100);
+}
+
+.link-banana:active {
+    background-color: var(--banana-500);
+    color: var(--black-100);
+}
+
+.link-lime {
+    text-decoration: none;
+    padding: 0 2px 0 2px;
+    border-radius: 6px;
+    background-color: var(--lime-100);
+    color: var(--black-100);
+}
+
+.link-lime:hover {
+    background-color: var(--lime-300);
+    color: var(--black-100);
+}
+
+.link-lime:active {
+    background-color: var(--lime-500);
+    color: var(--black-100);
+}
+
+.link-mint {
+    text-decoration: none;
+    padding: 0 2px 0 2px;
+    border-radius: 6px;
+    background-color: var(--mint-100);
+    color: var(--black-100);
+}
+
+.link-mint:hover {
+    background-color: var(--mint-300);
+    color: var(--silver-100);
+}
+
+.link-mint:active {
+    background-color: var(--mint-500);
+    color: var(--silver-100);
+}
+
 .link-blueberry {
     text-decoration: none;
     padding: 0 2px 0 2px;
@@ -8,10 +98,118 @@
 
 .link-blueberry:hover {
     background-color: var(--blueberry-300);
-    color: var(--black-300);
+    color: var(--silver-100);
 }
 
 .link-blueberry:active {
     background-color: var(--blueberry-500);
-    color: var(--black-900);
+    color: var(--silver-100);
+}
+
+.link-grape {
+    text-decoration: none;
+    padding: 0 2px 0 2px;
+    border-radius: 6px;
+    background-color: var(--grape-100);
+    color: var(--black-100);
+}
+
+.link-grape:hover {
+    background-color: var(--grape-300);
+    color: var(--silver-100);
+}
+
+.link-grape:active {
+    background-color: var(--grape-500);
+    color: var(--silver-100);
+}
+
+.link-bubblegum {
+    text-decoration: none;
+    padding: 0 2px 0 2px;
+    border-radius: 6px;
+    background-color: var(--bubblegum-100);
+    color: var(--silver-100);
+}
+
+.link-bubblegum:hover {
+    background-color: var(--bubblegum-300);
+    color: var(--silver-100);
+}
+
+.link-bubblegum:active {
+    background-color: var(--bubblegum-500);
+    color: var(--silver-100);
+}
+
+.link-cocoa {
+    text-decoration: none;
+    padding: 0 2px 0 2px;
+    border-radius: 6px;
+    background-color: var(--cocoa-100);
+    color: var(--silver-100);
+}
+
+.link-cocoa:hover {
+    background-color: var(--cocoa-300);
+    color: var(--silver-100);
+}
+
+.link-cocoa:active {
+    background-color: var(--cocoa-500);
+    color: var(--silver-100);
+}
+
+.link-silver {
+    text-decoration: none;
+    padding: 0 2px 0 2px;
+    border-radius: 6px;
+    background-color: var(--silver-300);
+    color: var(--black-100);
+}
+
+.link-silver:hover {
+    background-color: var(--silver-500);
+    color: var(--silver-100);
+}
+
+.link-silver:active {
+    background-color: var(--silver-700);
+    color: var(--silver-100);
+}
+
+.link-slate {
+    text-decoration: none;
+    padding: 0 2px 0 2px;
+    border-radius: 6px;
+    background-color: var(--slate-300);
+    color: var(--silver-100);
+}
+
+.link-slate:hover {
+    background-color: var(--slate-500);
+    color: var(--silver-100);
+}
+
+.link-slate:active {
+    background-color: var(--slate-700);
+    color: var(--silver-100);
+}
+
+.link-black {
+    text-decoration: none;
+    padding: 0 2px 0 2px;
+    border-radius: 6px;
+    background-color: var(--black-300);
+    color: var(--silver-100);
+}
+
+.link-black:hover {
+    background-color: var(--black-500);
+    color: var(--silver-100);
+}
+
+.link-black:active {
+    background-color: var(--black-700);
+    color: var(--silver-100);
 }
