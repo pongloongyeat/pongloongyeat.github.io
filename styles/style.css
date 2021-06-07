@@ -86,9 +86,26 @@ h2 {
     font-weight: 700;
 }
 
-h3 {
-    font-size: 18px;
-    font-weight: 600;
+p {
+    font-size: 20px;
+}
+
+.link-blueberry {
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 6px;
+    background-color: var(--blueberry-100);
+    color: var(--black-100);
+}
+
+.link-blueberry:hover {
+    background-color: var(--blueberry-300);
+    color: var(--black-300);
+}
+
+.link-blueberry:active {
+    background-color: var(--blueberry-500);
+    color: var(--black-900);
 }
 
 .about-area {
@@ -117,7 +134,7 @@ h3 {
 
 @media (min-width: 768px) {
     .avatar-col {
-        text-align: right;
+        text-align: end;
         margin-right: 128px;
     }
 }
@@ -151,4 +168,63 @@ h3 {
 .details i {
     padding: 8px;
     padding-left: 0;
+}
+
+.content-area {
+    /* Centre vertically */
+    display:flex;
+    align-items: center;
+
+    text-align: center;
+    color: var(--black-100);
+    padding-top: 64px;
+    padding-bottom: 64px;
+    height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .content-area {
+        height: auto;
+    }
+}
+
+.content-heading-col-left, .content-heading-col-right {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.content-heading-col-left *, .content-heading-col-right * {
+    text-align: center;
+    display: inline;
+}
+
+@media (min-width: 768px) {
+    .content-heading-col-left {
+        margin-left: 128px;
+    }
+
+    .content-heading-col-right {
+        margin-right: 128px;
+    }
+}
+
+.content-description-col-left, .content-description-col-right {
+    padding: 24px;
+}
+
+.content-description-col-left p, .content-description-col-right p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+    .content-description-col-left {
+        text-align: end;
+        margin-left: 128px;
+    }
+
+    .content-description-col-right {
+        text-align: start;
+        margin-right: 128px;
+    }
 }
