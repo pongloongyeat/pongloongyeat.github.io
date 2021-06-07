@@ -1,0 +1,17 @@
+.link-blueberry {
+    text-decoration: none;
+    padding: 0 2px 0 2px;
+    border-radius: 6px;
+    background-color: var(--blueberry-100);
+    color: var(--black-100);
+}
+
+.link-blueberry:hover {
+    background-color: var(--blueberry-300);
+    color: var(--black-300);
+}
+
+.link-blueberry:active {
+    background-color: var(--blueberry-500);
+    color: var(--black-900);
+}
