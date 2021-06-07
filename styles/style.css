@@ -81,13 +81,33 @@ h1 {
     font-weight: 900;
 }
 
-.about-col {
-    text-align: center;
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about-area {
+    /* Centre vertically */
+    display:flex;
     align-items: center;
+
+    text-align: center;
     background: var(--grape-500);
     color: var(--silver-100);
     padding-top: 64px;
-    padding-bottom: 128px;
+    padding-bottom: 64px;
+    height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .about-area {
+        height: auto;
+    }
 }
 
 .avatar-col {
@@ -109,12 +129,12 @@ h1 {
 }
 
 .description-col {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px;
 }
 
 .description-col p {
     font-size: 24px;
+    text-align: justify;
 }
 
 @media (min-width: 768px) {
