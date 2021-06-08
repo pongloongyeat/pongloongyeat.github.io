@@ -209,3 +209,18 @@ p {
         margin-right: 128px;
     }
 }
+
+#footer {
+    color: var(--silver-100);
+    background-color: var(--cocoa-100);
+    height: auto;
+}
+
+#footer i {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#footer p {
+    font-size: 18px;
+}
