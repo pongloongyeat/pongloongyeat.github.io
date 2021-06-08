@@ -92,6 +92,13 @@ p {
 
 i {
     padding: 8px;
+
+    /* Generally speaking, icons are typically always
+    before text. i.e.
+
+    <icon> <text>
+
+    so we don't really need a left padding. */
     padding-left: 0;
 }
 
