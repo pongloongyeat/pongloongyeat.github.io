@@ -245,16 +245,18 @@ li {
 
 .content-description-page {
     /* This class is mostly used for full-length
-    content (i.e. no columns) */
-    padding: 0 12px 64px 12px;
-}
-
-.content-description-page p {
+    content (i.e. no columns). Justify is used
+    here since on mobile, the text is squreezed
+    and so it looks like there is quite a fair
+    amount of text and less "blank whitespaces"
+    in between words. */
     text-align: justify;
+    padding: 0 12px 64px 12px;
 }
 
 @media (min-width: 768px) {
     .content-description-page {
+        text-align: start;
         padding: 0px;
         margin: 0 128px 64px 128px;
     }
