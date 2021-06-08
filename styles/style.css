@@ -113,13 +113,19 @@ img {
 }
 
 code {
+    /* Inter Mono isn't readily available yet
+    but Roboto Mono pairs quite well with it */
     font-family: 'Roboto Mono', monospace;
+    font-size: inherit;
+}
+
+ul, ol {
+    text-align: left;
     font-size: 20px;
 }
 
 li {
-    text-align: left;
-    font-size: 20px;
+    font-size: inherit;
 }
 
 .about-area {
@@ -240,7 +246,7 @@ li {
 .content-description-page {
     /* This class is mostly used for full-length
     content (i.e. no columns) */
-    padding: 0 12px 0 12px;
+    padding: 0 12px 64px 12px;
 }
 
 .content-description-page p {
@@ -250,7 +256,7 @@ li {
 @media (min-width: 768px) {
     .content-description-page {
         padding: 0px;
-        margin: 0 128px 0 128px;
+        margin: 0 128px 64px 128px;
     }
 }
 
