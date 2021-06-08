@@ -102,6 +102,32 @@ i {
     padding-left: 0;
 }
 
+img {
+    max-width: calc(100vw - 48px);
+}
+
+@media (min-width: 768px) {
+    img {
+        max-width: calc(100vw - 256px);
+    }
+}
+
+code {
+    /* Inter Mono isn't readily available yet
+    but Roboto Mono pairs quite well with it */
+    font-family: 'Roboto Mono', monospace;
+    font-size: inherit;
+}
+
+ul, ol {
+    text-align: left;
+    font-size: 20px;
+}
+
+li {
+    font-size: inherit;
+}
+
 .about-area {
     /* Centre vertically */
     display:flex;
@@ -215,6 +241,31 @@ i {
         text-align: start;
         margin-right: 128px;
     }
+}
+
+.content-description-page {
+    /* This class is mostly used for full-length
+    content (i.e. no columns). Justify is used
+    here since on mobile, the text is squeezed
+    and so it looks like there is quite a fair
+    amount of text and less "blank whitespaces"
+    in between words. */
+    text-align: justify;
+    padding: 0 12px 64px 12px;
+}
+
+@media (min-width: 768px) {
+    .content-description-page {
+        text-align: start;
+        padding: 0px;
+        margin: 0 128px 64px 128px;
+    }
+}
+
+#notable-works-content-area {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: auto;
 }
 
 #footer {
