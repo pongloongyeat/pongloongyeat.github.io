@@ -102,6 +102,11 @@ i {
     padding-left: 0;
 }
 
+code {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
 .about-area {
     /* Centre vertically */
     display:flex;
