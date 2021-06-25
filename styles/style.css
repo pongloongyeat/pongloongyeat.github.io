@@ -203,16 +203,6 @@ li {
     display: inline;
 }
 
-@media (min-width: 768px) {
-    .content-heading-col-left {
-        margin-left: 128px;
-    }
-
-    .content-heading-col-right {
-        margin-right: 128px;
-    }
-}
-
 .content-description-col-left, .content-description-col-right {
     padding: 24px;
 }
