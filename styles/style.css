@@ -204,11 +204,8 @@ li {
 }
 
 .content-description-col-left, .content-description-col-right {
-    padding: 24px;
-}
-
-.content-description-col-left p, .content-description-col-right p {
     text-align: justify;
+    padding: 24px;
 }
 
 @media (min-width: 768px) {
