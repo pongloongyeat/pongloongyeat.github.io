@@ -199,7 +199,6 @@ li {
 }
 
 .content-heading-col-left *, .content-heading-col-right * {
-    text-align: center;
     display: inline;
 }
 
@@ -220,23 +219,33 @@ li {
     }
 }
 
-.content-description-page {
-    /* This class is mostly used for full-length
-    content (i.e. no columns). Justify is used
-    here since on mobile, the text is squeezed
-    and so it looks like there is quite a fair
-    amount of text and less "blank whitespaces"
-    in between words. */
-    text-align: justify;
-    padding: 0 12px 64px 12px;
-}
-
 @media (min-width: 768px) {
     .content-description-page {
         text-align: start;
         padding: 0px;
         margin: 0 128px 64px 128px;
     }
+}
+
+.content-cards {
+    margin: 24px 0px 24px 0px;
+}
+
+@media (min-width: 768px) {
+    .content-cards {
+        margin: 24px 128px 24px 128px;
+    }
+}
+
+.card {
+    margin: auto;
+    max-width: 680px;
+    border: 1px solid var(--silver-300);
+    border-radius: 6px;
+}
+
+.card-source {
+    font-size: 20px;
 }
 
 #notable-works-content-area {
