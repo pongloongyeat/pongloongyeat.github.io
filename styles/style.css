@@ -102,16 +102,6 @@ i {
     padding-left: 0;
 }
 
-img {
-    max-width: calc(100vw - 48px);
-}
-
-@media (min-width: 768px) {
-    img {
-        max-width: calc(100vw - 256px);
-    }
-}
-
 code {
     /* Inter Mono isn't readily available yet
     but Roboto Mono pairs quite well with it */
