@@ -109,15 +109,6 @@ code {
     font-size: inherit;
 }
 
-ul, ol {
-    text-align: left;
-    font-size: 20px;
-}
-
-li {
-    font-size: inherit;
-}
-
 .about-area {
     /* Centre vertically */
     display:flex;
