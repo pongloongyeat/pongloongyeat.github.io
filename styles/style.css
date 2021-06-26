@@ -109,22 +109,21 @@ code {
     font-size: inherit;
 }
 
-.about-area {
+.content-area {
     /* Centre vertically */
     display:flex;
     align-items: center;
 
     text-align: center;
-    background: var(--grape-500);
-    color: var(--silver-100);
-    padding-top: 64px;
-    padding-bottom: 64px;
-    height: 100vh;
+    color: var(--black-100);
+    padding: 64px 12px 64px 12px;
+    height: auto;
 }
 
 @media (min-width: 768px) {
-    .about-area {
-        height: auto;
+    .content-area {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
