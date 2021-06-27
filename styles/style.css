@@ -109,6 +109,11 @@ code {
     font-size: inherit;
 }
 
+hr {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
 .content-area {
     /* Centre vertically */
     display:flex;
@@ -137,6 +142,11 @@ code {
     border-radius: 50%;
     width: 200px;
     height: 200px;
+}
+
+.content-heading {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .content-heading * {
@@ -204,14 +214,6 @@ code {
 
 #details {
     font-weight: 500;
-}
-
-#contributor-row {
-    margin-bottom: 24px;
-}
-
-#developer-row {
-    margin-bottom: 64px;
 }
 
 #footer {
