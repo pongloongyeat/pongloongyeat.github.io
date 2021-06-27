@@ -109,11 +109,6 @@ code {
     font-size: inherit;
 }
 
-hr {
-    margin-top: 48px;
-    margin-bottom: 48px;
-}
-
 .content-area {
     /* Centre vertically */
     display:flex;
@@ -161,6 +156,11 @@ hr {
     .content-description {
         text-align: start;
     }
+}
+
+.separator {
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
 .card {
