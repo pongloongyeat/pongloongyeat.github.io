@@ -7,7 +7,7 @@
 
 .link-blueberry {
     background-color: var(--blueberry-100);
-    color: var(--black-100);
+    color: var(--black-300);
 }
 
 .link-blueberry:hover {
@@ -22,7 +22,7 @@
 
 .link-silver {
     background-color: var(--silver-300);
-    color: var(--black-100);
+    color: var(--black-300);
 }
 
 .link-silver:hover {

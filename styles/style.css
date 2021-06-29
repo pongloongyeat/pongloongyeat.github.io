@@ -107,6 +107,7 @@ code {
     but Roboto Mono pairs quite well with it */
     font-family: 'Roboto Mono', monospace;
     font-size: inherit;
+    color: var(--strawberry-500);
 }
 
 .content-area {
@@ -115,7 +116,6 @@ code {
     align-items: center;
 
     text-align: center;
-    color: var(--black-100);
     padding: 64px 12px 64px 12px;
     height: auto;
 }
@@ -216,8 +216,12 @@ code {
     font-weight: 500;
 }
 
+#main-content-area {
+    color: var(--black-100);
+}
+
 #footer {
-    color: var(--silver-100);
+    color: white;
     background-color: var(--cocoa-100);
     height: auto;
 }
