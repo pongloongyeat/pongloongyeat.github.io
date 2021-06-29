@@ -110,6 +110,12 @@ code {
     color: var(--strawberry-500);
 }
 
+@media (prefers-color-scheme: dark) {
+    code {
+        color: var(--strawberry-300);
+    }
+}
+
 .content-area {
     /* Centre vertically */
     display:flex;
@@ -170,12 +176,19 @@ code {
     border-radius: 6px;
 }
 
+@media (prefers-color-scheme: dark) {
+    .card {
+        background-color: var(--black-300);
+        border: 1px solid var(--black-700);
+    }
+}
+
 .card-source {
     font-size: 20px;
 }
 
 #intro-content-area {
-    background: var(--grape-500);
+    background-color: var(--grape-500);
     color: var(--silver-100);
     height: 100vh;
 }
@@ -183,6 +196,12 @@ code {
 @media (min-width: 768px) {
     #intro-content-area {
         height: auto;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #intro-content-area {
+        background-color: var(--grape-700);
     }
 }
 
@@ -220,10 +239,24 @@ code {
     color: var(--black-100);
 }
 
+@media (prefers-color-scheme: dark) {
+    #main-content-area {
+        background-color: var(--black-500);
+        color: var(--silver-100);
+    }
+}
+
 #footer {
-    color: white;
     background-color: var(--cocoa-100);
+    color: white;
     height: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+    #footer {
+        background-color: var(--cocoa-300);
+        color: white;
+    }
 }
 
 #footer p {
