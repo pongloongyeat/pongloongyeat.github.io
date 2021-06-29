@@ -255,7 +255,6 @@ code {
 @media (prefers-color-scheme: dark) {
     #footer {
         background-color: var(--cocoa-300);
-        color: white;
     }
 }
 
