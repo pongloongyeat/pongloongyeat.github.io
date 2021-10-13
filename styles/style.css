@@ -183,8 +183,23 @@ code {
     }
 }
 
+.card img {
+    object-fit: cover;
+    max-height: 240px;
+}
+
+@media (min-width: 768px) {
+    .card img {
+        max-height: 400px;
+    }
+}
+
 .card-source {
     font-size: 20px;
+}
+
+.bottom-margin-48 {
+    margin-bottom: 48px;
 }
 
 #intro-content-area {
